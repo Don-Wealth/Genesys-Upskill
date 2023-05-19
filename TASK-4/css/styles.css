@@ -73,8 +73,11 @@ a:active {
     justify-content: center;
 }
 
-.btn-2, .btn-3 {
-    margin: 30px
+.btn-1 {
+    margin-top: -20px;
+}
+.btn-2, .btn-3,{
+    margin: 30px;
 }
 
 .btn-3 {
@@ -144,8 +147,9 @@ h1 {
 .flex-items {
     background: #F9F9F9;
     height: 117px;
-    width: 307px;
+    width: 272px;
     margin: 10px;
+    padding: 10px;
 }
 
 .img-container {
