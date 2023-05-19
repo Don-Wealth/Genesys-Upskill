@@ -1,0 +1,200 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    
+}
+
+/*.header-container {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+
+}*/
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.header > h4 {
+    margin: 0 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: block;
+    background: #6FC247;
+    height: 65px;
+    width: 270px;
+    left: 0;
+    top: 0;
+    border: none;
+    border-radius: 16px;
+    padding: 24px 40px 24px 40px;
+    color: white;
+    font-size: 21.3px;
+    align-content: center;
+    
+
+}
+
+.demo {
+    display: inline;
+    float: left;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-2, .btn-3 {
+    margin: 30px
+}
+
+.btn-3 {
+    background-color: white;
+    border: 1px solid #6FC247;
+    color: #6FC247;
+    font-weight: bold;
+}
+
+.marker-box {
+    width: 30px;
+    height: 30px;
+    filter: brightness(9) saturate(0%);
+}
+
+div {
+    text-align: center;
+}
+
+h1 {
+    font-family: Manrope;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 87px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#373737;
+}
+
+.div-1 {
+    width: 70%;
+    margin: auto;
+}
+
+.intro-para {
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.trusted {
+    font-family: Manrope;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #373737;
+}
+
+.second-para {
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 900px;
+    margin: auto;
+
+}
+
+.flex-items {
+    background: #F9F9F9;
+    height: 117px;
+    width: 307px;
+    margin: 10px;
+}
+
+.img-container {
+    width: 90%;
+    margin: auto;
+}
+
+.grid-container {
+    display: grid;
+    background: #111111;
+    color: white;
+    width: 100%;
+    margin: 80px 0;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    justify-items: left;
+    justify-content: space-between ;
+    padding: 70px;
+}
+
+.grid-one, .grid-two, .grid-three, .grid-four {
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+
+}
+
+.grid-one {
+    grid-column: span 4;   
+    text-align: left;
+    width: 600px;
+    align-self: start;
+    justify-self: left;
+}
+
+.grid-two, .grid-three, .grid-four {
+    width: 300px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.grid-con {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-4 {
+    display: inline;
+    grid-column: span 4;
+    float: right;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+.last-btn {
+    display: block;
+    text-align: center;
+    margin: 100px auto 300px;
+    clear: both;
+}
